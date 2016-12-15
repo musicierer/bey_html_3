@@ -1,0 +1,164 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.wrapper
+{
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header h1
+{
+    font-size: 50px;
+
+    margin-top: 59px;
+    margin-bottom: 36px;
+}
+
+.header li
+{
+    display: inline-block;
+
+    width: 10%;
+}
+
+.header ul li:nth-child(2)
+{
+    width: 101px;
+    height: 40px;
+    margin-left: 9px;
+
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background-color: #343434;
+}
+
+.header ul li:nth-child(2) a
+{
+    padding-left: 25px;
+}
+
+.header ul li:nth-child(1),
+.header ul li:nth-child(3),
+.header ul li:nth-child(4)
+{
+    margin-left: 46px;
+}
+
+.header ul
+{
+    height: 40px;
+
+    background-color: #595959;
+}
+
+.header li a
+{
+    line-height: 40px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.sidebar
+{
+    float: left;
+
+    margin-top: 40px;
+}
+
+.sidebar ul li
+{
+    width: 200px;
+    height: 27px;
+    padding-top: 13px;
+    padding-left: 25px;
+
+    color: #c8c8c8;
+    border: 1px solid #c8c8c8;
+}
+
+.sidebar ul li a
+{
+    text-decoration: none;
+
+    color: #c8c8c8;
+}
+
+.sidebar ul li:nth-child(3) a
+{
+    padding-left: 20px;
+
+    color: #111;
+}
+
+.bike-img
+{
+    float: right;
+
+    width: 678px;
+    height: 401px;
+    margin-top: 41px;
+    margin-bottom: 44px;
+
+    border: 1px solid #c8c8c8;
+}
+
+.bike-img img
+{
+    margin-top: 48px;
+    margin-left: 101px;
+}
+
+.content
+{
+    line-height: 25px;
+
+    box-sizing: border-box;
+    width: 629px;
+    margin-left: 320px;
+}
+
+.footer
+{
+    margin: 64px 0;
+}
+
+.footer li
+{
+    display: inline-block;
+
+    width: 10%;
+    margin-top: 12px;
+    padding-left: 24px;
+}
+
+.footer ul
+{
+    height: 40px;
+
+    background-color: #e1e1e1;
+}
+
+.footer a
+{
+    text-decoration: none;
+
+    color: #2c2c2c;
+}
+
+.footer li:nth-child(2)
+{
+    text-decoration: underline;
+}
+
+.footer .footer-element
+{
+    position: relative;
+    bottom: 26px;
+    left: 770px;
+}
