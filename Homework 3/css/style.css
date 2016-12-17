@@ -24,6 +24,13 @@ body
     padding-right: 30px;
 }
 
+.header ul li 
+{
+    border-right: 1px solid #595959;
+    border-left: 1px solid #595959;
+    border-color: transparent; 
+}
+
 .header ul li:hover
 {
     text-align: center;
